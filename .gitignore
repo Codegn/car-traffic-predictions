@@ -105,3 +105,4 @@ venv.bak/
 
 # others
 /dask-worker-space
+/data
