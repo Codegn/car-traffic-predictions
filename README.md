@@ -1,5 +1,5 @@
 # car-traffic-predictions
-Using conda env
+Using conda env with cpu
 0. conda create --name keras_cpu tensorflow keras pandas matplotlib jupyterlab dask
 1. conda activate keras_cpu
 2. jupyter lab
@@ -12,3 +12,8 @@ In case of using tensorflow-gpu and to check if gpu is good to go paste the folo
 1. python
 2. import tensorflow as tf
 3. sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+
+Using conda env with gpu
+0. conda create --name keras_theano_gpu numpy=1.15.4 theano pygpu  keras pandas matplotlib jupyterlab dask
+1. conda activate keras_theano_gpu
+2. jupyter lab
